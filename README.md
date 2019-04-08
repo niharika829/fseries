@@ -10,3 +10,4 @@ int c=1;
 int fib[100];
 void main()
 {
+pthread_t th1;
