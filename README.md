@@ -11,3 +11,4 @@ int fib[100];
 void main()
 {
 pthread_t th1;
+pthread_create(&th1,NULL,fun,NULL);
