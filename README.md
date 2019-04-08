@@ -34,3 +34,6 @@ pthread_create(&th2,NULL,fun1,NULL);
 pthread_join(th2,NULL);
 
 }
+void *fun1()
+{int d=c;
+int j;
