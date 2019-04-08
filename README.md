@@ -20,3 +20,4 @@ printf("enter a no. you wish to get a fibonacci series");
 scanf("%d",&c);
 pthread_t th3;
 pthread_create(&th3,NULL,fun2,NULL);
+pthread_join(th3,NULL);
