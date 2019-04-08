@@ -37,3 +37,5 @@ pthread_join(th2,NULL);
 void *fun1()
 {int d=c;
 int j;
+for(j=0;j<d;j++){
+printf("%d \n  %d  \n",j,fib[j]);
