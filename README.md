@@ -43,3 +43,6 @@ printf("%d \n  %d  \n",j,fib[j]);
 }
 void *fun2(){
 int t=c;
+if(t<0){
+printf("invalid value");
+exit(0);}
