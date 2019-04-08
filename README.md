@@ -8,3 +8,4 @@ void *fun1();
 void *fun2();
 int c=1;
 int fib[100];
+void main()
