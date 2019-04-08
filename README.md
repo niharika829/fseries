@@ -16,3 +16,5 @@ pthread_join(th1,NULL);
 }
 void *fun()
 {
+printf("enter a no. you wish to get a fibonacci series");
+scanf("%d",&c);
