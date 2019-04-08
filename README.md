@@ -46,3 +46,6 @@ int t=c;
 if(t<0){
 printf("invalid value");
 exit(0);}
+else if(t>100){
+printf("array does not have enough space");
+exit(0);
