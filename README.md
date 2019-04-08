@@ -41,3 +41,5 @@ for(j=0;j<d;j++){
 printf("%d \n  %d  \n",j,fib[j]);
 }
 }
+void *fun2(){
+int t=c;
