@@ -24,3 +24,5 @@ pthread_join(th3,NULL);
 int f=c;
 printf("size of array %d \n",f);
 int i;
+fib[0]=0;
+fib[1]=1;
