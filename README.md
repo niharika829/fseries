@@ -5,3 +5,4 @@
 #include<stdlib.h>
 void *fun();
 void *fun1();
+void *fun2();
