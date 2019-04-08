@@ -49,3 +49,7 @@ exit(0);}
 else if(t>100){
 printf("array does not have enough space");
 exit(0);
+}
+else{
+printf("process is going on\n");}
+sleep(2);
