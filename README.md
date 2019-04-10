@@ -22,7 +22,7 @@ pthread_t th3;
 pthread_create(&th3,NULL,fun2,NULL);
 pthread_join(th3,NULL);
 int f=c;
-printf("size of array %d \n",f);
+printf(" the size of array %d \n",f);
 int i;
 fib[0]=0;
 fib[1]=1;
